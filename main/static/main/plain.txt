@@ -1,0 +1,45 @@
+Installing Adspaces Plugin 
+There are two methods of installing the plugin:
+
+First Mathod
+1. Download the plugin: https://drive.google.com/uc?export=download&id=1O1xXCao1em37BPQruM8j9LIZqCndGO_A . If you already have the plugin zipped file, you can skip this step.
+2. Navigate to the plugins menu in your WordPress installation
+[screenshot]
+3. Click "Add Plugin"
+[screenshot]
+4. Click "Upload Plugin"
+[screenshot]
+5. Then choose the zip file downloaded before and click "Install Now"
+[screenshot]
+6. Activate the plugin from the Plugins menu within the WordPress admin
+[screenshot]
+
+Second Mathod
+Second method of manual installation involves downloading our Adspaces plugin and uploading it to your web-server via your favorite FTP application.
+
+1. Download the plugin: https://drive.google.com/uc?export=download&id=1O1xXCao1em37BPQruM8j9LIZqCndGO_A . If you already have the plugin zipped file, you can skip this step.
+2. Using an FTP program, or your hosting control panel, upload the unzipped plugin folder to your WordPress installation’s wp-content/plugins/ directory.
+3. Activate the plugin from the Plugins menu within the WordPress admin.
+
+Once installation is done, go to the adspaces plugin settings page
+[screenshot]
+
+Fill in the fields:
+1. Organisation: Enter the Name of your Organisation
+2. Background color: enter the background color of the web page in which you want to embed the Adspaces plugin. 
+Colors should be entered in the form 000000 for black FFFFFF for white, FF0000 for red and so on, i.e do not include a leading "#" character.
+3. Header Color: enter the color to use for headers and buttons in the Adspaces plugin. Use the format described in "2" above (no leading "#" character).
+4. Text Color: Enter the text color for the Adspaces plugin. Color values should folloe the format described above.
+5. Font Family: Enter the font type to be used by the plugin, for example Droid Serif.
+6. Enter the font weight
+7. Enter the font size, including the units, e.g 14px, 14em, 14px, 14em...
+
+Try to chose values that will make the Adspaces plugin blend in with the rest of your website. When you're done, click "Save" and then fill out the Authentication form below.
+
+Authentication
+Enter your AdSpaces Application Client ID and your AdSpaces Application Client Secret. If you don't have these credentials, contact adspaces on:
+info@adspaces.co.za
+or call +2779 246 5261
+
+
+650 x 631

@@ -1,0 +1,214 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="{% static 'main/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'main/style.css' %}" rel="stylesheet">
+    <title> Adspaces </title>
+
+<link rel="icon" 
+      type="image/jpg" 
+      href="{% static 'main/1547711749-adspaces-logo.png' %}">
+
+    <style>
+        .screenshot {
+            height: 400px;
+            margin-left: 50px;
+            
+        }
+
+    </style>
+</head>
+
+<body class="bg-light">
+
+    
+    <div class="container " id="my-iframe">
+
+        <h1 class="text-center text-info">Installing Adspaces Plugin </h1>
+        <p>There are two main methods of installing the Adspaces plugin</p> <hr>
+
+
+        <h3>First Method</h3>
+        <ol>
+            <li>
+                <p>
+                    Download the plugin
+                    <a download href="https://drive.google.com/uc?export=download&id=1Y9fUZ-yD3_3Zwqq9aj9IE1ij2T4FVwr5">
+                        <button class="btn btn-outline-info">Here</button>
+                    </a>
+                </p>
+                <p>If you already have the plugin zipped file, you can skip this step.</p>
+            </li>
+
+            <li>
+                <p>Navigate to the plugins menu in your WordPress installation</p>
+                <p >
+                    <img src="{% static 'main/1.png' %}" class="screenshot" alt="screenshot">
+                </p>
+            </li>
+
+            <li>
+                <p>Click "Add New" </p>
+                
+            </li>
+
+            <li>
+                <p>Click "Upload Plugin" </p>
+                <p><img src="{% static 'main/2.png' %}" class="screenshot" alt="screenshot"></p>
+            </li>
+
+            <li>
+                <p>Then choose the zip file downloaded before and click "Install Now" </p>
+                <p><img src="{% static 'main/3.png' %}" class="screenshot" alt="screenshot"></p>
+            </li>
+
+            <li>
+                <p>Activate the plugin from the Plugins menu within the WordPress admin </p>
+                
+            </li>
+        </ol> <hr>
+
+
+        <h3>Second Method</h3>
+        <p>
+                Second method of manual installation involves downloading our Adspaces plugin and uploading it to your web-server via your favorite FTP application.
+        </p>
+
+        <ol>
+            <li>
+                <p>
+                    Download the plugin
+                    <a download href="https://drive.google.com/uc?export=download&id=1Y9fUZ-yD3_3Zwqq9aj9IE1ij2T4FVwr5">
+                        <button class="btn btn-outline-info">Here</button>
+                    </a>
+                </p>
+                <p>If you already have the plugin zipped file, you can skip this step.</p>
+            </li>
+
+            <li>
+                <p>
+                    Using an FTP program, or your hosting control panel, upload the unzipped plugin folder to your WordPress installation’s  
+                    <code>
+                            wp-content/plugins/
+                    </code>
+                    directory.
+                </p>
+            </li>
+
+            <li>
+                <p>Activate the plugin from the Plugins menu within the WordPress admin </p>
+                
+            </li>
+
+        </ol> <hr>
+
+        <h2 class="text-info">
+            Once installation is done, go to the adspaces plugin settings page
+        </h2>
+        <p><img src="{% static 'main/4.png' %}" class="screenshot" alt="screenshot"></p>
+
+        <h3>Fill in the fields</h3>
+
+        <ol>
+                <li>
+                    <h5>Organisation</h5>
+                    <p>Enter the Name of your Organisation</p>
+                </li>
+
+                <li>
+                    <h5>Background color</h5>
+                    <p>
+                        Enter the background color of the web page in which you want to embed the Adspaces plugin. 
+                        Colors should be entered in the form 000000 for black FFFFFF for white, FF0000 for red and so on, i.e do not include a leading "#" character.
+                    </p>
+                </li>
+
+                <li>
+                    <h5>Header Color</h5>
+                    <p>
+                        Input the color to use for headers and buttons in the Adspaces plugin. Use the format described in "2" above (no leading "#" character).
+                    </p>
+                </li>
+
+                <li>
+                    <h5>Text Color</h5>
+                    <p>
+                        Enter the text color for the Adspaces plugin. Color values should folloe the format described above.
+                    </p>
+                </li>
+
+                <li>
+                    <h5>Font Family</h5>
+                    <p>
+                        Enter the font type to be used by the plugin, for example Droid Serif.
+                    </p>
+                </li>
+
+                <li>
+                    <h5>Enter the font weight</h5>
+                </li>
+
+                <li>
+                    <h5>Enter the font size, including the units, e.g 14px, 14em, 14px, 14em...</h5>
+                </li>
+
+        </ol>
+
+        <p>
+            Try to chose values that will make the Adspaces plugin blend in with the rest of your website. When you're done, click "Save" and then fill out the Authentication form below.
+        </p>
+        <hr>
+        <h2 class="text-info">
+                Authentication
+        </h2>
+        <p>
+            Enter your AdSpaces Application Client ID and your AdSpaces Application Client Secret.
+        </p>
+
+        <br> <hr>
+
+        <h2 class="text-info">Embed the Adspaces plugin in your page</h2>
+        <p>When installation is complete, you'll need to embed the Adspaces plugin in your webpage:</p>
+        
+        <ol>
+            <li>
+                <p>Go to "Pages" on the WordPress dashboard</p>
+                <p><img src="{% static 'main/pages.png' %}" class="screenshot" alt="screenshot"></p>
+                <p>Select the page in which you want to embed the plugin and click "Edit"</p>
+            </li>
+
+            <li>
+                <p>On the edit page, click the <img src="p.png">Character on the top left conner:</p>
+                <p><img src="plus.png" class="screenshot" alt="screenshot"></p>
+                <p>In the dialog that appears, search for and select "shortcode" then enter the shortcode as shown below: </p>
+                <p><img src="shortcode.png">
+                    <span style="margin: 10px;">
+                        <code>[mediabox_adspaces id='38']</code>
+                    </span>
+                </p>
+            </li>
+        </ol> <hr>
+
+        <div class="text-center">
+            <img src="{% static 'main/fingaz_plugin.png' %}" style="width: 100%"> <br> <hr>
+        </div>
+
+
+    </div>
+
+
+    <script src="{% static 'main/jquery.min.js' %}"></script>
+    <script src="{% static 'main/popper.min.js' %}"></script>
+    <script src="{% static 'main/bootstrap.min.js' %}"></script>
+    <script src="{% static 'main/script.js' %}"></script>
+</body>
+
+</html>
